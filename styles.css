@@ -1,0 +1,93 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 2rem;
+  color: #4ecca3;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #000021;
+  background: #4ecca3;
+  line-height: 1.15;
+  font-size: 16px;
+
+  :hover {
+    transition: all 0.1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+  }
+}
+
+h2 {
+  text-align: center;
+  margin: 30px;
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 3rem;
+  color: #4ecca3;
+  text-shadow: 2px 0 #232931;
+  color: #4ecca3;
+}
